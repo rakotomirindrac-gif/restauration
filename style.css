@@ -1,5 +1,5 @@
 *{
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,29 +21,31 @@ input[type = "checkbox"]{
   background:rgb(54, 54, 190) ;
 }
 
-img{
+.menuDeroulant{
   margin: 0;
   padding: 0;
   position: absolute;
   top: 15px;
+  left: 10px;/*ajustement de la position du menu deroulant*/
 }
-.slidebarre li a{
-  color: aliceblue;
 
-    text-decoration: none;
-
-}
 
 .slidebarre h1{
   text-align: center;
+  border: 1px solid white;
+  color: white;/*couleur blanc*/
   padding: 20px;
 
 }
 
 .slidebarre ul{
   position: absolute;
-  top: 100px;
-  
+  top: 80px;/*aju pos de ul*/
+}
+
+.slidebarre li a{
+  color: aliceblue;
+  text-decoration: none;
 }
 
 .slidebarre li{
@@ -51,5 +53,14 @@ img{
   list-style-type: none;
   font-size: 1.2rem;
   font-family: sans-serif;
-    padding: 20px;
+  padding: 20px;
+  width: 270px;/*mod largeur*/
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.slidebarre li:hover{
+  border-top: 1px solid white;/*br*/
+  transform: translateX(-2px);/*x*/
+  background-color: #a5a0a0;/*bc*/
 }
