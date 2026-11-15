@@ -1,0 +1,55 @@
+*{
+  outline: 2px solid red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('image/img2.wallspic.com-affleurement-affleurement_dispensaire_roches_rouges-haut_court_ouvert_sur_le_devant-geologie-t_shirt-8315x5130.jpg');
+  background-position: 0 0 ;
+  background-size: cover;
+}
+
+input[type = "checkbox"]{
+  display: none;
+}
+
+.slidebarre{
+  width: 20vw;
+  height: 100vh;
+  background:rgb(54, 54, 190) ;
+}
+
+img{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 15px;
+}
+.slidebarre li a{
+  color: aliceblue;
+
+    text-decoration: none;
+
+}
+
+.slidebarre h1{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.slidebarre ul{
+  position: absolute;
+  top: 100px;
+  
+}
+
+.slidebarre li{
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+    padding: 20px;
+}
